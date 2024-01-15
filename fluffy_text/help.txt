@@ -1,0 +1,1 @@
+Just enter the name of your city or click the button to share your location and the bot will send you today's weather forecast. Find out about temperature, precipitation and other meteorological conditions conveniently and quickly to always be aware of the weather in your area.
