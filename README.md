@@ -1,0 +1,1 @@
+Fluffy is a weather bot, the main purpose of which is to show meteorological data at the moment of time, to implement the functionality, aiogram and open weather API were used, the coordinates can be transferred both by the name of the settlement and by using the geolocation extension (works only on phones).
