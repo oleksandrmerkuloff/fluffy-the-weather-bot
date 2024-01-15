@@ -40,18 +40,3 @@ def get_current_weather_data(coordinates: tuple):
     params = {"lat": lat, "lon": lon, "units": "metric", "appid": API_KEY}
     response = requests.get(api_link, params=params)
     return data_cleaner(response.json())
-
-
-# def get_three_hour_weather_data(coordinates: tuple):
-#     api_link = "https://api.openweathermap.org/data/2.5/forecast"
-#     lat = coordinates[0]
-#     lon = coordinates[1]
-#     params = {"lat": lat, "lon": lon, "units": "metric", "appid": API_KEY}
-#     response = requests.get(api_link, params=params)
-#     print(response.json())
-
-
-if __name__ == "__main__":
-    coordinates = geocoding("Киев")
-    print(get_current_weather_data(coordinates))
-    # get_three_hour_weather_data(coordinates)
